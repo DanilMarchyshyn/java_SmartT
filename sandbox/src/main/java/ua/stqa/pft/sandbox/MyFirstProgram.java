@@ -3,16 +3,22 @@ package ua.stqa.pft.sandbox;
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        String somebody = "Sveta";
-        System.out.println("Hello, " + somebody + "!");
+        hello("World");
+        hello("user");
+        hello("Sveta");
 
-        int l = 17;
-        double d = 8.01;
-        int e = l * l;
-        System.out.println("Площадь квадрата " + l + " = " + e);
+        double t = 5;
+        System.out.println("Площадь квадрата со сторной " + t + " = " + area(t));
     }
 
+    public static void hello(String somebody) {
+        System.out.println("Hello, " + somebody + "!");
+    }
 
+    public static double area (double e) {
+        return e * e;
+    }
 
+    public static double area ()
 
 }
