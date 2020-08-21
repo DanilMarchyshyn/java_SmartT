@@ -9,6 +9,10 @@ public class MyFirstProgram {
 
         double t = 5;
         System.out.println("Площадь квадрата со сторной " + t + " = " + area(t));
+
+        double a = 6;
+        double b = 7;
+        System.out.println("Площадь прямоугольника со сторнами " + a + " и " + b +" = " + area(a, b));
     }
 
     public static void hello(String somebody) {
@@ -19,6 +23,9 @@ public class MyFirstProgram {
         return e * e;
     }
 
-    public static double area ()
+    public static double area (double a, double b) {
+        return a * b;
+    }
+
 
 }
