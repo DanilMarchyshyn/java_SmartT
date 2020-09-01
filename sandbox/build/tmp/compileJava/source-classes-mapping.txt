@@ -1,6 +1,6 @@
-ua/stqa/pft/sandbox/Square.java
- ua.stqa.pft.sandbox.Square
-ua/stqa/pft/sandbox/Rectangle.java
- ua.stqa.pft.sandbox.Rectangle
 ua/stqa/pft/sandbox/MyFirstProgram.java
  ua.stqa.pft.sandbox.MyFirstProgram
+ua/stqa/pft/sandbox/Rectangle.java
+ ua.stqa.pft.sandbox.Rectangle
+ua/stqa/pft/sandbox/Square.java
+ ua.stqa.pft.sandbox.Square
